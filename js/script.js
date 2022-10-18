@@ -1,7 +1,11 @@
-const header = document.querySelector("header");
+const header = document.querySelector('header');
+const whiteLogo = document.querySelector('.w_logo');
+const blackLogo = document.querySelector('.b_logo');
 
-window.addEventListener ("scroll", function() {
-	header.classList.toggle ("sticky", window.scrollY > 0);
+window.addEventListener('scroll', function () {
+	header.classList.toggle('sticky', window.scrollY > 0);
+	whiteLogo.classList.toggle('visible', window.scrollY > 0);
+	blackLogo.classList.toggle('visible', window.scrollY == 0);
 });
 
 let menu = document.querySelector('#menu-icon');
