@@ -500,7 +500,7 @@ header.sticky {
 	#menu-icon {
 		display: block;
 	}
-	.stick #menu-icon {
+	.sticky #menu-icon {
 		color: var(--text-color);
 	}
 	.home {
