@@ -444,10 +444,6 @@ header.sticky {
 	margin-top: 80px;
 }
 
-.contact form div {
-	width: fit-content;
-}
-
 .contact form div input {
 	width: 320px;
 	height: 55px;
@@ -462,7 +458,9 @@ header.sticky {
 	resize: none;
 }
 .btn {
-	margin-left: 85%;
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
 }
 .btn button {
 	outline: none;
@@ -552,9 +550,6 @@ header.sticky {
 		padding: 20px;
 		margin: 0 auto;
 		margin-top: 80px;
-	}
-	.btn {
-		margin-left: 66%;
 	}
 }
 
